@@ -5,7 +5,11 @@ module.exports = {
     fontFamily: {
       body: ['Roboto', 'sans-serif'],
     },
-    extend: {},
+    extend: {
+      margin: {
+        7: '1.75rem'
+      }
+    },
   },
   variants: {
     extend: {},

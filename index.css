@@ -3,3 +3,22 @@
 @tailwind compoennts;
 
 @tailwind utilities;
+
+.btn{
+    @apply rounded text-white font-bold bg-blue-400 border-2 
+    border-blue-400 px-5 py-3 mx-auto transition duration-100 ease-in-out
+}
+
+.btn:hover{
+    @apply bg-blue-700 border-blue-700
+}
+
+.btn-hollow{
+    @apply rounded text-blue-400 font-bold bg-transparent border-2 
+    border-blue-400 px-5 py-3 mx-auto transition duration-100 ease-in-out
+}
+
+.btn-hollow:hover{
+    @apply text-white bg-blue-400
+    border-blue-400
+}
